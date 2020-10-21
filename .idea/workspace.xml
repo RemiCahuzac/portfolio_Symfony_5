@@ -1,21 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="">
+    <list default="true" id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="first Commit">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/BackOffice/SkillController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/SkillType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/SkillRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/manage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/skill_create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Skill.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Skill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="C:\ProgramData\ComposerSetup\bin\composer" />
     </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="$PROJECT_DIR$/../../../../../Program Files/nodejs/node" />
+    <bower-package value="$PROJECT_DIR$/../../../../../Program Files/nodejs" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -127,23 +173,126 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="ProjectId" id="1jBYNKg1GvGYJlEr4bklDvxyrJE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/nodejs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cahuz\Documents\Lab\portfolio\assets\scss" />
+      <recent name="C:\Users\cahuz\Documents\Lab\portfolio\assets\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="first Commit">
+      <created>1603131627820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603131627820</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="first Commit" />
+      <created>1603278910217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603278910217</updated>
+      <workItem from="1603278911366" duration="7356000" />
+      <workItem from="1603287517127" duration="4793000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first Commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603131347329">
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603287693797">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603131347329" />
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287693797" />
+    <state x="446" y="43" key="#com.intellij.ide.util.MemberChooser" timestamp="1603281939712">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="43" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603281939712" />
+    <state x="421" y="128" key="FileChooserDialogImpl" timestamp="1603287387561">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="128" key="FileChooserDialogImpl/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287387561" />
     <state x="520" y="259" key="Github.ShareDialog" timestamp="1603131438323">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="520" y="259" key="Github.ShareDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603131438323" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1603287748299">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287748299" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1603287748298">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287748298" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1603287748298">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287748298" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1603287748298">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287748298" />
+    <state x="395" y="84" key="NewPhpClassDialog" timestamp="1603281906827">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="395" y="84" key="NewPhpClassDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603281906827" />
+    <state x="142" y="6" key="SettingsEditor" timestamp="1603287485397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="6" key="SettingsEditor/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287485397" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603131635604">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603131635604" />
+    <state x="358" y="169" key="jetbrains.nodejs.interpreters-dialog" timestamp="1603287334331">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="358" y="169" key="jetbrains.nodejs.interpreters-dialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287334331" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1603280730128">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603280730128" />
   </component>
 </project>

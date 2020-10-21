@@ -4,6 +4,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Class Skill
@@ -22,12 +23,18 @@ class Skill
     /**
      * @var string|null
      * @ORM\Column
+     * @Assert\NotBlank(message="Ce champs ne peux pas être vide.")
      */
     private ?string $name = null;
 
     /**
      * @var int|null
      * @ORM\Column(type="integer")
+     * @Assert\NotBlank(message="Ce champs ne peux pas être vide.")
+     * @Assert\Range(min=1,
+     *     max=10,
+     *     minMessage="Le niveau doit être supérieur ou égal à 1",
+     *     maxMessage="Le niveau doit être inférieur ou égal à 10" )
      */
     private ?int $level = null;
 
