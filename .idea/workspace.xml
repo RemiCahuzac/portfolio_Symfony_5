@@ -19,31 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="first Commit">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BackOffice/SkillController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/SkillType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/SkillRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/manage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/skill_create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills">
+      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/update.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Skill.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Skill.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BackOffice/SkillController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BackOffice/SkillController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/back_office/skill/manage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back_office/skill/manage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/back_office/skill/skill_create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back_office/skill/create.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="C:\ProgramData\ComposerSetup\bin\composer" />
@@ -216,9 +206,17 @@
       <option name="presentableId" value="Default" />
       <updated>1603278910217</updated>
       <workItem from="1603278911366" duration="7356000" />
-      <workItem from="1603287517127" duration="4793000" />
+      <workItem from="1603287517127" duration="4970000" />
+      <workItem from="1603394325634" duration="1737000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills">
+      <created>1603292894151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603292894151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +237,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first Commit" />
+    <MESSAGE value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création de skills&#10;-" />
+    <MESSAGE value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603287693797">
@@ -282,10 +282,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="6" key="SettingsEditor/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287485397" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603131635604">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603292909951">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603131635604" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603292909951" />
     <state x="358" y="169" key="jetbrains.nodejs.interpreters-dialog" timestamp="1603287334331">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

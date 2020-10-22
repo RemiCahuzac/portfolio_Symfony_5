@@ -54,7 +54,7 @@ class SkillController extends AbstractController
 
         }
 
-        return $this->render("back_office/skill/skill_create.html.twig", [
+        return $this->render("back_office/skill/create.html.twig", [
             "form" =>$form->createView()
         ]);
 
@@ -68,11 +68,9 @@ class SkillController extends AbstractController
      */
     public function update(Skill $skill, Request $request): Response
     {
-        $skill = new Skill();
         $form = $this->createForm(SkillType::class, $skill)->handleRequest($request);
 
         if($form->isSubmitted() && $form->isValid()){
-            $this->getDoctrine()->getManager()->persist($skill);
             $this->getDoctrine()->getManager()->flush();
 
             $this->addFlash("success", "la compétence a été modifiée avec succès !");
@@ -81,14 +79,23 @@ class SkillController extends AbstractController
 
         }
 
-        return $this->render("back_office/skill/skill_update.html.twig", [
+        return $this->render("back_office/skill/update.html.twig", [
             "form" =>$form->createView()
         ]);
     }
 
-    public function delete(): RedirectResponse
+    /**
+     * @Route("/{id}/delete", name="skill_delete")
+     * @param Skill $skill
+     * @return RedirectResponse
+     */
+    public function delete(Skill $skill): RedirectResponse
     {
+        $this->getDoctrine()->getManager()->remove($skill);
+        $this->getDoctrine()->getManager()->flush();
+        $this->addFlash("success", "la compétence a été supprimé avec succès !");
 
+        return $this->redirectToRoute("skill_manage");
     }
 
 }
