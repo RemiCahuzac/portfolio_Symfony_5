@@ -32,7 +32,7 @@ class SkillController extends AbstractController
         return $this->render("back_office/skill/manage.html.twig", [
             "skills" => $skills
         ]);
-;    }
+    }
 
     /**
      * @Route("/create", name="skill_create")
