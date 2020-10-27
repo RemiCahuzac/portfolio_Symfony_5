@@ -12,7 +12,6 @@ use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\Validator\Constraints\Choice;
 
 
 /**
@@ -47,7 +46,7 @@ class FormationType extends AbstractType
                     "BAC+5" => 5,
                     "BAC+6" => 6,
                     "BAC+7" => 7,
-                    "BAC+6" => 8,
+                    "BAC+8" => 8,
 
                 ]
             ])

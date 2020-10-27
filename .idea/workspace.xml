@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills">
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BackOffice/FormationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/FormationType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/FormationRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/manage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/update.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Formation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Formation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/FormationType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/FormationType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +209,7 @@
       <workItem from="1603278911366" duration="7356000" />
       <workItem from="1603287517127" duration="4970000" />
       <workItem from="1603394325634" duration="1911000" />
-      <workItem from="1603804488693" duration="4001000" />
+      <workItem from="1603804488693" duration="4267000" />
     </task>
     <task id="LOCAL-00002" summary="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills">
       <created>1603292894151</created>
@@ -243,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603396236877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mise en place de :&#10;l'ajout / modification /suppression &#10;d'une formation">
+      <created>1603809015111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603809015111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +263,8 @@
     <MESSAGE value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création de skills&#10;-" />
     <MESSAGE value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills" />
     <MESSAGE value="Ajout de la fonctionnalité : &#10; - modification &amp; suppression des compétences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la fonctionnalité : &#10; - modification &amp; suppression des compétences" />
+    <MESSAGE value="Mise en place de :&#10;l'ajout / modification /suppression &#10;d'une formation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de :&#10;l'ajout / modification /suppression &#10;d'une formation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603287693797">
@@ -312,10 +309,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="6" key="SettingsEditor/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287485397" />
-    <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1603396242842">
+    <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1603809018375">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.689/-1920.81.1920.1050@0.0.1280.689" timestamp="1603396242842" />
+    <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.689/-1920.81.1920.1050@0.0.1280.689" timestamp="1603809018375" />
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603292909951" />
     <state x="358" y="169" key="jetbrains.nodejs.interpreters-dialog" timestamp="1603287334331">
       <screen x="0" y="0" width="1280" height="720" />
