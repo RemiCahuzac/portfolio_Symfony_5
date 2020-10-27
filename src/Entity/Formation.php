@@ -6,6 +6,7 @@ namespace App\Entity;
 
 use DateTimeInterface;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Class Formation
@@ -25,24 +26,35 @@ class Formation
     /**
      * @var string|null
      * @ORM\Column
+     * @Assert\NotBlank (message="Ce champs ne peux pas être vide.")
      */
     private ?string $name = null;
 
     /**
+     * @var string|null
+     * @ORM\Column
+     * @Assert\NotBlank (message="Ce champs ne peux pas être vide.")
+     */
+    private ?string $school = null;
+
+    /**
      * @var int|null
      * @ORM\Column(type="integer")
+     * @Assert\NotBlank (message="Ce champs ne peux pas être vide.")
      */
     private ?int $gradeLevel = null;
 
     /**
      * @var string|null
      * @ORM\Column(type="text")
+     * @Assert\NotBlank (message="Ce champs ne peux pas être vide.")
      */
     private ?string $description = null;
 
     /**
      * @var DateTimeInterface|null
      * @ORM\Column(type="date_immutable")
+     * @Assert\NotBlank (message="Ce champs ne peux pas être vide.")
      */
     private ?DateTimeInterface $startedAt = null;
 
@@ -83,6 +95,24 @@ class Formation
     {
         $this->name = $name;
     }
+
+    /**
+     * @return string|null
+     */
+    public function getSchool(): ?string
+    {
+        return $this->school;
+    }
+
+    /**
+     * @param string|null $school
+     */
+    public function setSchool(?string $school): void
+    {
+        $this->school = $school;
+    }
+
+
 
     /**
      * @return int|null

@@ -20,13 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f447cfbf-dda5-4327-93ac-064087fff534" name="Default Changelist" comment="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills">
-      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/back_office/skill/update.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/BackOffice/FormationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/FormationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/FormationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/manage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/back_office/formation/update.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/BackOffice/SkillController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BackOffice/SkillController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/back_office/skill/manage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back_office/skill/manage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/back_office/skill/skill_create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back_office/skill/create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Formation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Formation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,15 +181,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/back_office/formation" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cahuz\Documents\Lab\portfolio\templates\back_office\formation" />
+      <recent name="C:\Users\cahuz\Documents\Lab\portfolio\src\Repository" />
+      <recent name="C:\Users\cahuz\Documents\Lab\portfolio\src\Controller\BackOffice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cahuz\Documents\Lab\portfolio\assets\scss" />
       <recent name="C:\Users\cahuz\Documents\Lab\portfolio\assets\js" />
@@ -207,7 +219,8 @@
       <updated>1603278910217</updated>
       <workItem from="1603278911366" duration="7356000" />
       <workItem from="1603287517127" duration="4970000" />
-      <workItem from="1603394325634" duration="1737000" />
+      <workItem from="1603394325634" duration="1911000" />
+      <workItem from="1603804488693" duration="4001000" />
     </task>
     <task id="LOCAL-00002" summary="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills">
       <created>1603292894151</created>
@@ -216,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603292894151</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de la fonctionnalité : &#10; - modification &amp; suppression des compétences">
+      <created>1603396166921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603396166921</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajout de la fonctionnalité : &#10; - modification &amp; suppression des compétences">
+      <created>1603396236877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603396236877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,16 +266,18 @@
     <MESSAGE value="first Commit" />
     <MESSAGE value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création de skills&#10;-" />
     <MESSAGE value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de : &#10;- Toutes les dépendances.&#10;- Formulaire de création/visualisation des skills" />
+    <MESSAGE value="Ajout de la fonctionnalité : &#10; - modification &amp; suppression des compétences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la fonctionnalité : &#10; - modification &amp; suppression des compétences" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603287693797">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287693797" />
-    <state x="446" y="43" key="#com.intellij.ide.util.MemberChooser" timestamp="1603281939712">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1603805923272">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/-1920.81.1920.1050@0.0.1280.689" timestamp="1603805923272" />
     <state x="446" y="43" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603281939712" />
     <state x="421" y="128" key="FileChooserDialogImpl" timestamp="1603287387561">
       <screen x="0" y="0" width="1280" height="720" />
@@ -274,17 +303,19 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287748298" />
-    <state x="395" y="84" key="NewPhpClassDialog" timestamp="1603281906827">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="395" y="80" key="NewPhpClassDialog" timestamp="1603804840385">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="395" y="80" key="NewPhpClassDialog/0.0.1280.689/-1920.81.1920.1050@0.0.1280.689" timestamp="1603804840385" />
     <state x="395" y="84" key="NewPhpClassDialog/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603281906827" />
     <state x="142" y="6" key="SettingsEditor" timestamp="1603287485397">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="6" key="SettingsEditor/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603287485397" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603292909951">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="233" y="90" key="Vcs.Push.Dialog.v2" timestamp="1603396242842">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="233" y="90" key="Vcs.Push.Dialog.v2/0.0.1280.689/-1920.81.1920.1050@0.0.1280.689" timestamp="1603396242842" />
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720/-1920.81.1920.1080@0.0.1280.720" timestamp="1603292909951" />
     <state x="358" y="169" key="jetbrains.nodejs.interpreters-dialog" timestamp="1603287334331">
       <screen x="0" y="0" width="1280" height="720" />
