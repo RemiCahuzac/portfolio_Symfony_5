@@ -8,11 +8,13 @@ use DateTimeInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Class Reference
  * @package App\Entity
  * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Repository\ReferenceRepository")
  */
 class Reference
 {
@@ -27,18 +29,28 @@ class Reference
     /**
      * @var string|null
      * @ORM\Column
+     * @Assert\NotBlank(message="Ce champs ne peux pas être vide.")
      */
     private ?string $title = null;
 
     /**
      * @var string|null
      * @ORM\Column
+     * @Assert\NotBlank(message="Ce champs ne peux pas être vide.")
      */
     private ?string $company = null;
 
     /**
+     * @var string|null
+     * @ORM\Column(type="text")
+     * @Assert\NotBlank(message="Ce champs ne peux pas être vide.")
+     */
+    private ?string $description = null;
+
+    /**
      * @var DateTimeInterface|null
      * @ORM\Column(type="date_immutable")
+     * @Assert\NotBlank(message="Ce champs ne peux pas être vide.")
      */
     private ?DateTimeInterface $startedAt = null;
 
@@ -48,9 +60,11 @@ class Reference
      */
     private ?DateTimeInterface $endedAt = null;
 
+
     /**
      * @var Collection
      * @ORM\OneToMany(targetEntity="Media", mappedBy="reference", cascade={"persist"}, orphanRemoval=true)
+     * @Assert\Count(min=1, minMessage="Vous devez ajouter au moins une image.")
      */
     private Collection $medias;
 
@@ -117,6 +131,22 @@ class Reference
     public function setCompany(?string $company): void
     {
         $this->company = $company;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getDescription(): ?string
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param string|null $description
+     */
+    public function setDescription(?string $description): void
+    {
+        $this->description = $description;
     }
 
     /**
